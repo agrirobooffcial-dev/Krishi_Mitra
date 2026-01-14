@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Abstract
+📖 Abstract
 
 Agriculture remains the backbone of India’s economy, supporting nearly half of the population while contributing significantly to the national GDP. One of the most persistent challenges in crop cultivation is weed infestation, which competes with crops for nutrients, water, and sunlight, resulting in yield losses of **25–40%**.
 
