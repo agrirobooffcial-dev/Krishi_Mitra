@@ -61,7 +61,7 @@ Agriculture remains the backbone of India’s economy, supporting nearly half of
 - Raspberry Pi as central processing unit
 - Data transmission to farmer-facing application
 
-### 🚀 Future-Ready Design
+🚀 Future-Ready Design
 - ROS 2 compatible architecture
 - Modular hardware & software upgrades
 - Support for GPS / RTK integration
