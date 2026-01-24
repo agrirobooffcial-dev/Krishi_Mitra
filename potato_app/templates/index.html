@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potato Leaf Disease Detection</title>
+    <style>
+        body { font-family: Arial; text-align: center; background: #f4f4f4; }
+        .frame { display: inline-block; margin: 20px; padding: 10px; background: white; }
+        img { max-width: 400px; border: 2px solid #333; }
+        h2 { color: green; }
+    </style>
+</head>
+<body>
+
+<h1>🥔 Potato Leaf Disease Detection</h1>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <br><br>
+    <button type="submit">Run Inference</button>
+</form>
+
+{% if prediction %}
+    <h2>Detected Class: {{ prediction }}</h2>
+
+    <div class="frame">
+        <h3>Original Image</h3>
+        <img src="{{ original_image }}">
+    </div>
+
+    <div class="frame">
+        <h3>Result Image</h3>
+        <img src="{{ result_image }}">
+    </div>
+{% endif %}
+
+</body>
+</html>
